@@ -1,0 +1,20 @@
+{
+    "name": "Calmacil/rpgl",
+    "description": "PHP base library/framework to write and manage RPG characters sheets applications",
+    "version": "1.0-dev",
+    "require": {
+        "twig/twig": ">=1.8,<2.0-dev"
+    },
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Calmacil",
+            "email": "togo.harrian@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RPGL\\": "src/"
+        }
+    }
+}
