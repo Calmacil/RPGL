@@ -74,7 +74,7 @@ class JsonReader
             throw new \InvalidArgumentException("variable \$key must be a string.");
         }
 
-        $keys = explode($key, ".");
+        $keys = explode(".", $key);
         if ($value=self::array_get_recursive($this->_data, $keys)) {
             return $value;
         }
@@ -92,6 +92,8 @@ class JsonReader
         }
 
         $key = array_shift($keys);
+        echo $key."\n";
+        echo print_r($keys, true)."\n";
         if (!array_key_exists($key, $data)) {
             throw new \InvalidArgumentException("Unable to find this key");
             return false;
