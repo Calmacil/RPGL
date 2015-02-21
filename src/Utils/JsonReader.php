@@ -22,20 +22,20 @@ class JsonReader
      *
      * @var string $_path
      */
-    private $_path = "";
+    protected $_path = "";
 
     /**
      * Data
      *
      * @var array $_data
      */
-    private $_data = Array();
+    protected $_data = Array();
 
     /**
      * Loads the file
      * @return success
      */
-    private function load()
+    protected function load()
     {
         if (!is_file($this->_path))
             throw new RuntimeException("File {$this->_path} does not exist!");
