@@ -2,11 +2,11 @@
 /**
  * Short description for Router.php
  *
- * @package     Router
+ * @package     \RPGL\Routing
  * @author      Calmacil <thomas.lenoel@gmail.com>
  * @version     0.1
  * @copyright   (C) 2015 Calmacil <thomas.lenoel@gmail.com>
- * @license     all rights reserved
+ * @license     GPLv3.0
  */
 
 namespace RPGL\Routing;
@@ -21,4 +21,4 @@ class Router extends JsonReader
     }
 }
 
-// vi: ts=4 sts=4 sw=4 et encoding=utf8
+// vi: ts=4 sts=4 sw=4 et

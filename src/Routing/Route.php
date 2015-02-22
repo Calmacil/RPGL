@@ -134,4 +134,4 @@ class Route
 }
 
 
-// vi: ts=4 sts=4 sw=4 et encoding=utf8
+// vi: ts=4 sts=4 sw=4 et
